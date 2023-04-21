@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1682112142",
+        "python_version": "3.8.16 (default, Mar  2 2023, 03:18:16) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\woutv\\anaconda3\\envs\\myenv\\Scripts\\mlagents-learn C:\\Users\\woutv\\Documents\\VR Experience\\Jumper\\jumper-assignment-WoutVanBoxem\\jumperProject\\config\\JumperConfig.yaml --run-id=JumperRun4 --force",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.0.0+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1682112153"
+    },
+    "total": 10.9128647,
+    "count": 1,
+    "self": 10.0052946,
+    "children": {
+        "run_training.setup": {
+            "total": 0.08370999999999995,
+            "count": 1,
+            "self": 0.08370999999999995
+        },
+        "TrainerController.start_learning": {
+            "total": 0.8238601000000001,
+            "count": 1,
+            "self": 0.00030869999999971753,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 0.8235410000000001,
+                    "count": 1,
+                    "self": 0.8235410000000001
+                },
+                "trainer_threads": {
+                    "total": 1.2000000002565514e-06,
+                    "count": 1,
+                    "self": 1.2000000002565514e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 9.200000000042508e-06,
+                    "count": 1,
+                    "self": 9.200000000042508e-06
+                }
+            }
+        }
+    }
+}
