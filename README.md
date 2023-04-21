@@ -13,6 +13,7 @@ Dit is de documentatie voor de `CubeAgent` Unity ML-Agent. Deze agent is ontworp
 5. [OnActionReceived](#onactionreceived)
 6. [OnCollisionEnter](#oncollisionenter)
 7. [FixedUpdate](#fixedupdate)
+8. [Training](#training)
 
 ## Belangrijkste componenten
 
@@ -130,4 +131,9 @@ private void FixedUpdate(){
     timeSinceLastJump += Time.fixedDeltaTime;
 }
 ```
+
+## Training
+
+De training van de ML-agent verliep succesvol, waarbij de standaardafwijking van de beloningen van elke afzonderlijke episode consistent afnam, terwijl de gemiddelde beloning per episode geleidelijk toenam. Dit duidt op een geleidelijke verbetering van het gedrag van de agent tijdens het leerproces en een toename van de nauwkeurigheid en effectiviteit van de besluitvorming en acties van de agent. De geleidelijke afname van de standaardafwijking van de beloningen toont aan dat de agent consistent presteert en dat de algoritmen en parameters van het model goed zijn afgestemd op de gegeven taak. Deze resultaten geven aan dat de training van de ML-agent succesvol is en dat het getrainde model in staat is om nauwkeurig te voorspellen en acties uit te voeren voor de gegeven taak.
+![image](https://user-images.githubusercontent.com/91462836/233742031-e1588cf4-4970-4884-8cd5-1288388c2e3c.png)
 
